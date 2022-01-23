@@ -1,14 +1,4 @@
 import React, {useEffect, useState} from 'react';
-import axios from 'axios';
-
-import {
-  FlatList,
-  Text,
-  View,
-  Image,
-  ActivityIndicator,
-  StyleSheet,
-} from 'react-native';
 import {gistsService} from './src/services/GistsService';
 import {GistsList} from './src/components/GistsList';
 
